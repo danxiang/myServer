@@ -66,7 +66,7 @@ public class Hello {
 	public @ResponseBody Object testServer2(@RequestBody BaseRequest request) {
 		try {
 			@SuppressWarnings("unchecked")
-			HashMap<String, Object> reqParams = request.getReqParams();
+			HashMap<String, Object> reqParams = request.getReqParamMap();
 			if (reqParams != null) {
 				int page = Integer.parseInt(String.valueOf(reqParams.get("pageNum")));
 				Object response = testGoodsInfo(page);
