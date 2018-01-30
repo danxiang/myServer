@@ -23,9 +23,9 @@ import com.feng.demo.bean.MessageRequest;
 import com.feng.demo.controller.base.BaseController;
 
 @Controller
-public class TestController extends BaseController {
+public class FinAsstController extends BaseController {
 
-	private Logger log = Logger.getLogger(TestController.class);
+	private Logger log = Logger.getLogger(FinAsstController.class);
 
 	@RequestMapping(value = "/asst/proxy", method = { RequestMethod.POST, RequestMethod.GET }, produces = {
 			"application/json; charset=utf-8" })

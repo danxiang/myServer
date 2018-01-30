@@ -19,7 +19,8 @@ import com.feng.demo.controller.base.BaseController;
 @RequestMapping(value = "/feng")
 public class FengController extends BaseController {
 
-	@RequestMapping(value = "/test", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value = "/test", method = { RequestMethod.GET, RequestMethod.POST }, produces = {
+	"application/json; charset=utf-8" })
 	public @ResponseBody Object test(@RequestBody Object request) {
 		log.info("request=======>" + JSONObject.toJSONString(request));
 
