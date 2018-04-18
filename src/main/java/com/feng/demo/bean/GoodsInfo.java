@@ -4,8 +4,10 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class GoodsInfo implements Serializable{
+
+	private static final long serialVersionUID = -4215077135030838015L;
 	
-    private long id;   //商品id
+	private long id;   //商品id
     private String title;  //商品名字
     private long sale_price;  //商品价格
     private long original_price;   //原价
@@ -22,6 +24,7 @@ public class GoodsInfo implements Serializable{
     private String comments;   //评价
     private String remarks;   //备注
     private String url;   //商品链接	
+    
 	public long getId() {
 		return id;
 	}

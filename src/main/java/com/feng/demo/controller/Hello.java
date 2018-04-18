@@ -65,7 +65,6 @@ public class Hello {
 	@RequestMapping(value = "testServer2", method = RequestMethod.POST)
 	public @ResponseBody Object testServer2(@RequestBody BaseRequest request) {
 		try {
-			@SuppressWarnings("unchecked")
 			HashMap<String, Object> reqParams = request.getReqParamMap();
 			if (reqParams != null) {
 				int page = Integer.parseInt(String.valueOf(reqParams.get("pageNum")));

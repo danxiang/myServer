@@ -3,8 +3,8 @@ package com.feng.demo.bean;
 import java.io.Serializable;
 
 public class MessageRequest implements Serializable{
-	private static final long serialVersionUID = 5120156392811241717L;
 	
+	private static final long serialVersionUID = 5120156392811241717L;
 	
 	private int pageSize;
 	private int pageNum;

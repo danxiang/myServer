@@ -3,6 +3,8 @@ package com.feng.demo.bean;
 import java.io.Serializable;
 
 public class BaseReponse implements Serializable {
+
+	private static final long serialVersionUID = -1569866596364910899L;
 	
 	private String returnCode;
 	private String returnMsg;

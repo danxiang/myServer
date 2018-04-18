@@ -3,11 +3,9 @@ package com.feng.demo.bean;
 import java.io.Serializable;
 
 public class MessageInfo implements Serializable{
+
+	private static final long serialVersionUID = 7495568032885353535L;
 	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private String messageId;    //消息ID
     private String messageType;  //消息类型
     private int readStatus;      //是否已读 0：未读 1：已读
