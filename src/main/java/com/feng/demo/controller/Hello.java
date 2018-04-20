@@ -38,7 +38,7 @@ public class Hello {
 		return "HelloWorld";
 	}
 
-	@RequestMapping(value = "testServer", method = { RequestMethod.POST })
+	@RequestMapping(value = "/testServer", method = { RequestMethod.POST })
 	public void testServer(HttpServletRequest request, HttpServletResponse response) {
 		try {
 			request.setCharacterEncoding("UTF-8");
@@ -62,7 +62,7 @@ public class Hello {
 		}
 	}
 
-	@RequestMapping(value = "testServer2", method = RequestMethod.POST)
+	@RequestMapping(value = "/testServer2", method = RequestMethod.POST)
 	public @ResponseBody Object testServer2(@RequestBody BaseRequest request) {
 		try {
 			HashMap<String, Object> reqParams = request.getReqParamMap();

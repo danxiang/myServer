@@ -4,3 +4,7 @@
  
 2018-04-18 11:13:20  [ http-apr-8080-exec-4:0 ] - [ ERROR ]  参数异常   request: {"appIdentifier":"com.feng.app.dev","appVersion":"1.0.0","mobileModel":"MI 4LTE","reqParams":"{\"pagesize\":0,\"pageNum\":1}","requestSource":"Android","systemVersion":"6.0.1"}
  
+2018-04-18 18:31:11  [ http-apr-8080-exec-10:1192715 ] - [ ERROR ]  参数异常   request: {"appIdentifier":"com.feng.app.dev","appVersion":"1.0.0","mobileModel":"MI 4LTE","reqParams":"{\"pagesize\":0,\"pageNum\":1}","requestSource":"Android","systemVersion":"6.0.1"}
+ 
+2018-04-18 18:31:17  [ http-apr-8080-exec-1:1198115 ] - [ ERROR ]  参数异常   request: {"appIdentifier":"com.feng.app.dev","appVersion":"1.0.0","mobileModel":"MI 4LTE","reqParams":"{\"pagesize\":0,\"pageNum\":1}","requestSource":"Android","systemVersion":"6.0.1"}
+ 
